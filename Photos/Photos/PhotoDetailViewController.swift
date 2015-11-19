@@ -10,6 +10,7 @@ import UIKit
 
 class PhotoDetailViewController: UIViewController {
 
+    @IBOutlet weak var likesLabel: UILabel!
     @IBOutlet weak var usernameLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var likedButton: UIButton!
@@ -38,6 +39,7 @@ class PhotoDetailViewController: UIViewController {
         let day = calendar.component(NSCalendarUnit.Day, fromDate: date)
         let year = calendar.component(NSCalendarUnit.Year, fromDate: date)
         dateLabel.text = "\(month)/\(day)/\(year)"
+        likesLabel.text = "\(photo.likes)"
         
         let photoURL: NSURL = NSURL(string: photo.url)!
         var task = NSURLSession.sharedSession().dataTaskWithURL(photoURL) { (data, response, error) -> Void in
@@ -76,6 +78,7 @@ class PhotoDetailViewController: UIViewController {
             photo.likes = photo.likes + 1
             likedButton.backgroundColor = blue
         }
+        likesLabel.text = "\(photo.likes)"
     }
 
 
