@@ -15,6 +15,10 @@
 		3A1683A31BE9B717009F39C5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1683A21BE9B717009F39C5 /* Utils.swift */; };
 		3A1683A71BE9C593009F39C5 /* InstagramAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1683A61BE9C593009F39C5 /* InstagramAPI.swift */; };
 		3A1683A91BE9C5A7009F39C5 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1683A81BE9C5A7009F39C5 /* Photo.swift */; };
+		DFEC7C671BFC1EDA00836DB5 /* PhotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEC7C651BFC1EDA00836DB5 /* PhotosCollectionViewCell.swift */; };
+		DFEC7C681BFC1EDA00836DB5 /* PhotosCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFEC7C661BFC1EDA00836DB5 /* PhotosCollectionViewCell.xib */; };
+		DFEC7C6F1BFC27C900836DB5 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEC7C6D1BFC27C900836DB5 /* PhotoDetailViewController.swift */; };
+		DFEC7C701BFC27C900836DB5 /* PhotoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFEC7C6E1BFC27C900836DB5 /* PhotoDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		3A1683A21BE9B717009F39C5 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		3A1683A61BE9C593009F39C5 /* InstagramAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramAPI.swift; sourceTree = "<group>"; };
 		3A1683A81BE9C5A7009F39C5 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		DFEC7C651BFC1EDA00836DB5 /* PhotosCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewCell.swift; sourceTree = "<group>"; };
+		DFEC7C661BFC1EDA00836DB5 /* PhotosCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotosCollectionViewCell.xib; sourceTree = "<group>"; };
+		DFEC7C6D1BFC27C900836DB5 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+		DFEC7C6E1BFC27C900836DB5 /* PhotoDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +92,10 @@
 			isa = PBXGroup;
 			children = (
 				3A1683911BE9B642009F39C5 /* PhotosCollectionViewController.swift */,
+				DFEC7C651BFC1EDA00836DB5 /* PhotosCollectionViewCell.swift */,
+				DFEC7C661BFC1EDA00836DB5 /* PhotosCollectionViewCell.xib */,
+				DFEC7C6D1BFC27C900836DB5 /* PhotoDetailViewController.swift */,
+				DFEC7C6E1BFC27C900836DB5 /* PhotoDetailViewController.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -155,7 +167,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFEC7C701BFC27C900836DB5 /* PhotoDetailViewController.xib in Resources */,
 				3A16839A1BE9B642009F39C5 /* LaunchScreen.storyboard in Resources */,
+				DFEC7C681BFC1EDA00836DB5 /* PhotosCollectionViewCell.xib in Resources */,
 				3A1683971BE9B642009F39C5 /* Assets.xcassets in Resources */,
 				3A1683951BE9B642009F39C5 /* Main.storyboard in Resources */,
 			);
@@ -171,8 +185,10 @@
 				3A1683921BE9B642009F39C5 /* PhotosCollectionViewController.swift in Sources */,
 				3A1683901BE9B642009F39C5 /* AppDelegate.swift in Sources */,
 				3A1683A31BE9B717009F39C5 /* Utils.swift in Sources */,
+				DFEC7C6F1BFC27C900836DB5 /* PhotoDetailViewController.swift in Sources */,
 				3A1683A71BE9C593009F39C5 /* InstagramAPI.swift in Sources */,
 				3A1683A91BE9C5A7009F39C5 /* Photo.swift in Sources */,
+				DFEC7C671BFC1EDA00836DB5 /* PhotosCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
